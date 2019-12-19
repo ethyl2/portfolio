@@ -2,8 +2,9 @@ import React from 'react';
 
 const Projects = props => {
     return (
-        <div>
-            <h3>Portfolio</h3>
+        <div className='home-box'>
+            <h3>Portfolio </h3>
+            <p>projects go here</p>
         </div>
     )
 }
