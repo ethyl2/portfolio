@@ -18,6 +18,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route path='/projects' component={Projects} />
         <Route path='/contact' component={Contact} />
+        <Route component={Home} />
       </Switch>
     </div>
   );
