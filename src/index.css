@@ -171,4 +171,126 @@ button {
   border: none;
   margin: 1rem;
   font-family:'Raleway', sans-serif;
+  outline: none;
+  transition: all .2s ease-in-out;
+  font-size: 1.25rem;
+}
+
+button:hover {
+  transform: scale(1.2);
+  font-style: italic;
+}
+
+/* Projects Page Styles */
+
+.screenshot-container {
+  width: 60%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  margin: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.projects-page {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  width: 60%;
+  margin: 2rem auto;
+  padding: 3rem;
+}
+
+.projects-box {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-box {
+  background: rgba(255, 255, 255, 0.7);
+  margin: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem;
+  width: 90%;
+}
+
+.modal-box {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.modal-box h2 {
+  margin: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.modal-box p {
+  margin: 1rem;
+  line-height: 2rem;
+}
+
+.modal-box a {
+  margin: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.modal-box a:hover {
+  font-style: italic;
+  transform: scale(1.2);
+}
+
+/* Contact Page Styles */
+.contact-page {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  width: 60%;
+  margin: 2rem auto;
+  padding: 3rem;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: stretch;
+  margin: 2rem;
+ 
+}
+
+label {
+  margin: 2rem 1rem;
+  padding: 1rem;
+}
+
+input, textarea {
+  margin: 1rem;
+  border: none;
+  line-height: 2rem;
+  width: 100%;
+  font-family:'Raleway', sans-serif;
+}
+
+form button {
+  width: 50%;
+  margin: 1rem auto;
+}
+
+input[placeholder], textarea[placeholder] {
+  text-align: left;
+  padding: 0.5rem;
 }
