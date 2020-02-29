@@ -1,6 +1,7 @@
 import ReactGitHubUserCardApp from './images/ReactGitHubUserCardApp.png';
 import RestaurantPassport from './images/RestaurantPassport.png';
-
+import FeltFood from './images/FeltFood.png';
+import BusinessCardOrganizer from './images/BusinessCardOrganizer.png';
 
 const projectData = [
     {
@@ -17,7 +18,25 @@ const projectData = [
         'deployed': 'https://restaurant-passport-2.netlify.com/',
         'description': 'This app allows users to keep track of all the restaurants that they like/want to visit. It also gives recommendations and picks a place for the users to go to if they can\'t decide. Built with a team at Lambda School, using React, React-Router, and the Yelp API.',
         'imageSrc': RestaurantPassport
-}
+    },
+
+    {
+        'title': 'Felt Food Marketing Page',
+        'repo': 'https://github.com/ethyl2/felt-food',
+        'deployed': 'https://felt-foods.surge.sh/',
+        'description': 'An example of a functional marketing page built with vanilla HTML, CSS and JavaScript.',
+        'imageSrc': FeltFood
+    },
+
+    {
+        'title': 'Business Card Organizer',
+        'repo': 'https://github.com/Build-Week-Business-Card-Organizer-2/Backend',
+        'deployed': 'https://business-card-organizer.netlify.com/',
+        'description': 'This app is designed to help users share and collect business cards. I helped create the backend of the application, using Node.js, Express, Postgresql, and Heroku.',
+        'imageSrc': BusinessCardOrganizer
+    }
+
+
 
 ]
 
