@@ -146,8 +146,9 @@ footer {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.7);
-  width: 60%;
-  margin: 1rem auto;
+  width: 50%;
+  margin: 2rem auto;
+  padding: 2rem;
 }
 
 .text-box {
@@ -155,7 +156,7 @@ footer {
   flex-flow: column nowrap;
   justify-items: space-between;
   align-items: center;
-  background: #CFDF07;
+  background: rgb(177, 189, 17);
   margin: 1rem;
   padding: 1rem;
 }
