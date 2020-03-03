@@ -4,6 +4,8 @@ import FeltFood from './images/FeltFood.png';
 import BusinessCardOrganizer from './images/BusinessCardOrganizer.png';
 import RefugeeStories from './images/RefugeeStories.png';
 import Pomodoro from './images/Pomodoro.png';
+import DJDJEntertainment from './images/DJDJEntertainment.png';
+import KatnissToDo from './images/KatnissToDo.png';
 
 const projectData = [
     
@@ -32,11 +34,27 @@ const projectData = [
     },
 
     {
+        'title': 'DJDJ Entertainment Business Website',
+        'repo': 'https://github.com/ethyl2/djdj',
+        'deployed': 'https://djdj.netlify.com/',
+        'description': 'Uses React with react-router-dom to create a SPA that incorporates multiple aspects of a DJ\'s business.',
+        'imageSrc': DJDJEntertainment
+    },
+
+    {
         'title': 'GitHubUser',
         'repo': 'https://github.com/ethyl2/React-Github-User-Card',
         'deployed': 'https://github-user.now.sh/',
         'description': 'This project is built with React and uses axios to access data from GitHub\'s API to populate a page with info about a GitHub user. The GitHub calendar for the user is also displayed. Entering a username reloads the page with information for that user.',
         'imageSrc': ReactGitHubUserCardApp
+    },
+
+    {
+        'title': 'Katniss Everdeen\'s Todo App',
+        'repo': 'https://github.com/ethyl2/reducer-todo',
+        'deployed': 'http://katniss-todo.surge.sh/',
+        'description': 'This project uses the reducer pattern for state management, using the useReducer() hook. The theme is from The Hunger Games by Suzanne Collins',
+        'imageSrc': KatnissToDo
     },
 
     {
@@ -52,7 +70,7 @@ const projectData = [
         'repo': 'https://github.com/ethyl2/pomodoro-clock',
         'deployed': 'https://pomodoro-tomato.netlify.com/',
         'description': 'Timer app that helps users be more productive by splitting work time into sessions with breaks inbetween. Built with React.',
-        'imageSrc': 'Pomodoro'
+        'imageSrc': Pomodoro
     }
 
 
