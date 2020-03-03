@@ -3,6 +3,7 @@ import RestaurantPassport from './images/RestaurantPassport.png';
 import FeltFood from './images/FeltFood.png';
 import BusinessCardOrganizer from './images/BusinessCardOrganizer.png';
 import RefugeeStories from './images/RefugeeStories.png';
+import Pomodoro from './images/Pomodoro.png';
 
 const projectData = [
     
@@ -45,6 +46,14 @@ const projectData = [
         'description': 'An example of a functional marketing page built with vanilla HTML, CSS and JavaScript.',
         'imageSrc': FeltFood
     },
+
+    { 
+        'title': 'Pomodoro Timer',
+        'repo': 'https://github.com/ethyl2/pomodoro-clock',
+        'deployed': 'https://pomodoro-tomato.netlify.com/',
+        'description': 'Timer app that helps users be more productive by splitting work time into sessions with breaks inbetween. Built with React.',
+        'imageSrc': 'Pomodoro'
+    }
 
 
 
