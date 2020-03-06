@@ -5,48 +5,129 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 * {
@@ -56,7 +137,7 @@ table {
 
 /* Global Styles */
 body {
-  font-family:'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: ivory;
@@ -64,7 +145,9 @@ body {
   background-size: cover;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Antic', sans-serif;
 }
 
@@ -78,7 +161,13 @@ h2 {
 
 a {
   text-decoration: none;
-  color: #75720B;
+  color: #75720b;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 1rem auto;
+  line-height: 1.75rem;
 }
 
 #page-container {
@@ -90,11 +179,10 @@ a {
   padding-bottom: 2.5rem;
 }
 
-header, footer {
+header,
+footer {
   background: #212427;
   color: ivory;
-  
-  
 }
 
 header {
@@ -179,9 +267,9 @@ button {
   padding: 1rem;
   border: none;
   margin: 1rem;
-  font-family:'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   outline: none;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   font-size: 1.25rem;
 }
 
@@ -190,11 +278,19 @@ button:hover {
   font-style: italic;
 }
 
+/* About Page Styles */
+.images-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Projects Page Styles */
 
 .screenshot-container {
   width: 70%;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   margin: 1rem;
 }
 
@@ -229,7 +325,7 @@ img {
   flex-flow: column nowrap;
   justify-content: flex-end;
   align-items: center;
-  
+
   width: 45%;
 }
 
@@ -280,7 +376,6 @@ form {
   justify-content: center;
   align-items: stretch;
   margin: 2rem;
- 
 }
 
 label {
@@ -288,12 +383,13 @@ label {
   padding: 1rem;
 }
 
-input, textarea {
+input,
+textarea {
   margin: 1rem;
   border: none;
   line-height: 2rem;
   width: 100%;
-  font-family:'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 form button {
@@ -301,7 +397,8 @@ form button {
   margin: 1rem auto;
 }
 
-input[placeholder], textarea[placeholder] {
+input[placeholder],
+textarea[placeholder] {
   text-align: left;
   padding: 0.5rem;
 }
