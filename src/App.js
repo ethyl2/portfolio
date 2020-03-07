@@ -14,7 +14,6 @@ function App() {
       <div id="content-wrap">
         <Header />
       </div>
-      <Footer />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/projects" component={Projects} />
@@ -22,6 +21,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route component={Home} />
       </Switch>
+      <Footer />
     </div>
   );
 }

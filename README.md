@@ -1,3 +1,15 @@
+# Portfolio
+
+A showcase of my applications and projects.
+
+Currently deployed at http://heathernuffer.surge.sh/
+
+---
+
+All images are my own, except for the tree background image, which can be found in Jeremy Bishop's collection at unsplash.com: https://unsplash.com/@jeremybishop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
