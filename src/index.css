@@ -209,11 +209,25 @@ header nav a {
 footer {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   min-height: 10vh;
   margin-bottom: none;
   margin-top: 5rem;
+}
+footer div {
+  text-align: right;
+  margin-right: 1rem;
+}
+footer div a {
+  margin-left: 1rem;
+  font-size: 2rem;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+footer div a:hover {
+  color: white;
+  transform: scale(1.2);
 }
 
 .img-container {
