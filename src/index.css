@@ -258,6 +258,7 @@ footer div a:hover {
   width: 50%;
   margin: 2rem auto 14rem auto;
   padding: 2rem;
+  min-height: 80vh;
 }
 
 .text-box {
@@ -379,8 +380,9 @@ img {
   align-items: center;
   background: rgba(255, 255, 255, 0.7);
   width: 60%;
-  margin: 2rem auto;
+  margin: 1rem auto;
   padding: 3rem;
+  min-height: 90vh;
 }
 
 form {
@@ -389,6 +391,7 @@ form {
   justify-content: center;
   align-items: stretch;
   margin: 2rem;
+  width: 65%;
 }
 
 label {
