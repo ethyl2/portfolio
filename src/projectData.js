@@ -39,7 +39,8 @@ const projectData = [
   {
     title: 'Business Card Organizer',
     repo: 'https://github.com/Build-Week-Business-Card-Organizer-2/Backend',
-    deployed: 'https://business-card-organizer.netlify.com/',
+    deployed:
+      'https://documenter.getpostman.com/view/10064604/SWTEbbdc?version=latest',
     description:
       'This app is designed to help users share and collect business cards. I helped create the backend of the application, using Node.js, Express, Postgresql, and Heroku.',
     imageSrc: BusinessCardOrganizer,
