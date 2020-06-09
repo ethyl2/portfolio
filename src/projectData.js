@@ -1,6 +1,6 @@
 import ReactGitHubUserCardApp from './images/ReactGitHubUserCardApp.png';
 import RestaurantPassport from './images/RestaurantPassport.png';
-import FeltFood from './images/FeltFood.png';
+// import FeltFood from './images/FeltFood.png';
 import BusinessCardOrganizer from './images/BusinessCardOrganizer.png';
 import RefugeeStories from './images/RefugeeStories.png';
 import Pomodoro from './images/Pomodoro.png';
@@ -16,6 +16,8 @@ const projectData = [
     description:
       'This app enables DJs to effectively connect with their audiences by creating event pages and getting song requests.',
     imageSrc: DJHelper,
+    techStack:
+      'React | React Router | Redux | SASS | Node.js | Express | Postgres | AWS',
   },
 
   {
@@ -25,6 +27,7 @@ const projectData = [
     description:
       "This app allows users to keep track of all the restaurants that they like/want to visit. It also gives recommendations and picks a place for the users to go to if they can't decide. Built with a team at Lambda School, using React, React-Router, and the Yelp API.",
     imageSrc: RestaurantPassport,
+    techStack: 'React | React Router | Redux | Node.js | Express | Postgres',
   },
 
   {
@@ -34,6 +37,8 @@ const projectData = [
     description:
       'This app allows people to share stories and experiences of refugees to increase awareness, understanding, and support. I helped to create the front end of the application, using React.',
     imageSrc: RefugeeStories,
+    techStack:
+      'React | React Router | GSAP | Redux | Node.js | Express | SQLite',
   },
 
   {
@@ -44,6 +49,7 @@ const projectData = [
     description:
       'This app is designed to help users share and collect business cards. I helped create the backend of the application, using Node.js, Express, Postgresql, and Heroku.',
     imageSrc: BusinessCardOrganizer,
+    techStack: 'React | React Router | Redux | Node.js | Express | Postgres',
   },
 
   {
@@ -53,6 +59,7 @@ const projectData = [
     description:
       "Uses React with react-router-dom to create a SPA that incorporates multiple aspects of a DJ's business.",
     imageSrc: DJDJEntertainment,
+    techStack: 'React | React Router | SASS',
   },
 
   {
@@ -62,6 +69,7 @@ const projectData = [
     description:
       "This project is built with React and uses axios to access data from GitHub's API to populate a page with info about a GitHub user. The GitHub calendar for the user is also displayed. Entering a username reloads the page with information for that user.",
     imageSrc: ReactGitHubUserCardApp,
+    techStack: 'React | CSS',
   },
 
   {
@@ -71,6 +79,7 @@ const projectData = [
     description:
       'This project uses the reducer pattern for state management, using the useReducer() hook. The theme is from The Hunger Games by Suzanne Collins',
     imageSrc: KatnissToDo,
+    techStack: 'React | CSS',
   },
 
   {
@@ -78,8 +87,9 @@ const projectData = [
     repo: 'https://github.com/ethyl2/pomodoro-clock',
     deployed: 'https://pomodoro-tomato.netlify.com/',
     description:
-      'Timer app that helps users be more productive by splitting work time into sessions with breaks inbetween. Built with React.',
+      'Timer app that helps users be more productive by splitting work time into sessions with breaks in-between. Built with React.',
     imageSrc: Pomodoro,
+    techStack: 'React | CSS',
   },
 ];
 

@@ -357,9 +357,15 @@ img {
   letter-spacing: 0.2rem;
 }
 
+.modal-box h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
 .modal-box p {
   margin: 1rem;
   line-height: 2rem;
+  font-size: 1rem;
 }
 
 .modal-box a {
