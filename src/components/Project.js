@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import projectData from '../projectData';
 import Modal from 'react-modal';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 const customStyles = {
   content: {
@@ -10,7 +13,7 @@ const customStyles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
-    width: '50%',
+    width: '55%',
   },
 };
 
@@ -52,8 +55,21 @@ const Project = ({ index }) => {
           <p>{projectData[index].description}</p>
           <h3>Tech Stack:</h3>
           <p>{projectData[index].techStack}</p>
-          <a href={projectData[index].deployed}>{projectData[index].title}</a>
-          <a href={projectData[index].repo}>Repository on GitHub</a>
+          <a
+            href={projectData[index].deployed}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {projectData[index].title}
+          </a>
+          <a
+            href={projectData[index].repo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="fa"
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
           <button onClick={closeModal}>Close</button>
         </div>
       </Modal>
