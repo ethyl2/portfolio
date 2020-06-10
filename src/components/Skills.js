@@ -19,25 +19,31 @@ import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import Skill from './Skill';
 
+const skills = [
+  { icon: faGitAlt, name: 'Git' },
+  { icon: faGithub, name: 'GitHub' },
+  { icon: faCss3, name: 'CSS3' },
+  { icon: faHtml5, name: 'HTML5' },
+  { icon: faSass, name: 'SASS' },
+  { icon: faLess, name: 'LESS' },
+  { icon: faBootstrap, name: 'Bootstrap' },
+  { icon: faJsSquare, name: 'JavaScript' },
+  { icon: faReact, name: 'React' },
+  { icon: faNodeJs, name: 'Node.js' },
+  { icon: faDatabase, name: 'SQL' },
+  { icon: faPython, name: 'Python' },
+  { icon: faSlack, name: 'Slack' },
+  { icon: faTrello, name: 'Trello' },
+];
+
 const Skills = (props) => {
   return (
     <div className="skills-container">
       <h2>Tech Skills</h2>
       <div className="skills-box">
-        <Skill icon={faGitAlt} name="Git" />
-        <Skill icon={faGithub} name="GitHub" />
-        <Skill icon={faHtml5} name="HTML5" />
-        <Skill icon={faCss3} name="CSS3" />
-        <Skill icon={faSass} name="SASS" />
-        <Skill icon={faLess} name="LESS" />
-        <Skill icon={faBootstrap} name="Bootstrap" />
-        <Skill icon={faJsSquare} name="JavaScript" />
-        <Skill icon={faReact} name="React" />
-        <Skill icon={faNodeJs} name="Node.js" />
-        <Skill icon={faPython} name="Python" />
-        <Skill icon={faDatabase} name="SQL" />
-        <Skill icon={faSlack} name="Slack" />
-        <Skill icon={faTrello} name="Trello" />
+        {skills.map((skill) => {
+          return <Skill key={skill.name} icon={skill.icon} name={skill.name} />;
+        })}
       </div>
     </div>
   );
