@@ -311,6 +311,14 @@ button:hover {
 }
 
 /* About Page Styles */
+.about a.school-link {
+  color: black;
+  font-weight: bold;
+  &:hover {
+    font-style: italic;
+  }
+}
+
 .images-container {
   display: flex;
   flex-flow: row wrap;
@@ -334,6 +342,42 @@ button:hover {
   &:hover {
     font-style: italic;
     transform: scale(1.2);
+  }
+}
+
+/* Skills Styles */
+
+.skills-container {
+  width: 90%;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 2rem 1rem 1rem 1rem;
+  margin: 1rem;
+}
+.skills-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 1rem;
+
+  .skill-box {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding: 0.5rem;
+
+    p {
+      font-size: 1rem;
+      margin: 0.5rem;
+      &.fa {
+        font-size: 2.75rem;
+        color: black;
+        margin-bottom: 0;
+      }
+    }
   }
 }
 

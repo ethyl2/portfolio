@@ -18,6 +18,11 @@ const projectData = [
     imageSrc: DJHelper,
     techStack:
       'React | React Router | Redux | SASS | Node.js | Express | Postgres | AWS',
+    keyFeatures: [
+      'Functioned as a web developer on a remote, cross-functional team of 5 web developers, 5 data scientists, and 1 UX designer',
+      'Initiated the idea for the app and currently act as a stakeholder for this project',
+      'Built functionality for user onboarding and event creation/modification/deletion',
+    ],
   },
 
   {
@@ -28,6 +33,11 @@ const projectData = [
       "This app allows users to keep track of all the restaurants that they like/want to visit. It also gives recommendations and picks a place for the users to go to if they can't decide. Built with a team at Lambda School, using React, React-Router, and the Yelp API.",
     imageSrc: RestaurantPassport,
     techStack: 'React | React Router | Redux | Node.js | Express | Postgres',
+    keyFeatures: [
+      'Functioned as a React developer on a remote team of 5 web developers',
+      'Designed and collaborated to create the pages for onboarding and restaurant collections',
+      'Built functionality to get restaurant recommendations by querying the back end’s Yelp API integration',
+    ],
   },
 
   {
@@ -39,6 +49,11 @@ const projectData = [
     imageSrc: RefugeeStories,
     techStack:
       'React | React Router | GSAP | Redux | Node.js | Express | SQLite',
+    keyFeatures: [
+      'Functioned as a React developer on a remote team of 4 web developers',
+      'Designed and collaborated to create the pages for onboarding and administrator story approval/rejection',
+      'Built functionality to add/modify/delete stories and experiences',
+    ],
   },
 
   {
@@ -50,6 +65,11 @@ const projectData = [
       'This app is designed to help users share and collect business cards. I helped create the backend of the application, using Node.js, Express, Postgresql, and Heroku.',
     imageSrc: BusinessCardOrganizer,
     techStack: 'React | React Router | Redux | Node.js | Express | Postgres',
+    keyFeatures: [
+      'Functioned as a Node.js developer on a remote team of 6 web developers',
+      'Collaborated to create the back end for user onboarding and database storage of business cards',
+      'Helped the front end team to implement QR Code generation and cloud image storage',
+    ],
   },
 
   {
@@ -60,6 +80,11 @@ const projectData = [
       "Uses React with react-router-dom to create a SPA that incorporates multiple aspects of a DJ's business.",
     imageSrc: DJDJEntertainment,
     techStack: 'React | React Router | SASS',
+    keyFeatures: [
+      'Created the layout and design',
+      'Edited and updated the text from the old website for use in this site',
+      'Built the new site using React and React Router',
+    ],
   },
 
   {
