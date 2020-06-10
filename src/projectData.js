@@ -95,6 +95,11 @@ const projectData = [
       "This project is built with React and uses axios to access data from GitHub's API to populate a page with info about a GitHub user. The GitHub calendar for the user is also displayed. Entering a username reloads the page with information for that user.",
     imageSrc: ReactGitHubUserCardApp,
     techStack: 'React | CSS',
+    keyFeatures: [
+      "Utilized axios to request data about from GitHub's API data for specific users",
+      'Created the layout and design',
+      'Utilized the github-calendar library to display GitHub contributions graph for a user',
+    ],
   },
 
   {
@@ -102,9 +107,14 @@ const projectData = [
     repo: 'https://github.com/ethyl2/reducer-todo',
     deployed: 'http://katniss-todo.surge.sh/',
     description:
-      'This project uses the reducer pattern for state management, using the useReducer() hook. The theme is from The Hunger Games by Suzanne Collins',
+      'This project is do-to application, with a fun/humorous touch. It features content from the point of view of the main character from the Hunger Games book series.',
     imageSrc: KatnissToDo,
     techStack: 'React | CSS',
+    keyFeatures: [
+      'Created the layout and design',
+      'Implemented the reducer pattern for state management, using the useReducer() hook',
+      'Utilized CSS transforms to add animation',
+    ],
   },
 
   {
@@ -115,6 +125,11 @@ const projectData = [
       'Timer app that helps users be more productive by splitting work time into sessions with breaks in-between. Built with React.',
     imageSrc: Pomodoro,
     techStack: 'React | CSS',
+    keyFeatures: [
+      'Wrote text to briefly explain the Pomodoro technique',
+      'Created the layout and design',
+      'Coded the project using React class components',
+    ],
   },
 ];
 

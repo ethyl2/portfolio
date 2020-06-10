@@ -170,6 +170,12 @@ p {
   line-height: 1.75rem;
 }
 
+ul {
+  border: 1px solid black;
+  font-style: italic;
+  border-radius: 3px;
+}
+
 #page-container {
   min-height: 110vh;
 }
@@ -177,6 +183,8 @@ p {
 #content-wrap {
   padding-bottom: 2.5rem;
 }
+
+/* Header and Footer Styles */
 
 header,
 footer {
@@ -497,6 +505,26 @@ img {
   }
   a.fa {
     font-size: 4rem;
+  }
+  .links-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    p {
+      font-weight: bold;
+    }
+    div {
+      width: 50%;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+    a:hover {
+      color: #fc7138;
+    }
   }
 }
 

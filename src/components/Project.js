@@ -3,6 +3,7 @@ import projectData from '../projectData';
 import Modal from 'react-modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
 const customStyles = {
@@ -55,21 +56,40 @@ const Project = ({ index }) => {
           <p>{projectData[index].description}</p>
           <h3>Tech Stack:</h3>
           <p>{projectData[index].techStack}</p>
-          <a
-            href={projectData[index].deployed}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {projectData[index].title}
-          </a>
-          <a
-            href={projectData[index].repo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="fa"
-          >
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
+          <div className="links-box">
+            <div>
+              <a
+                className="fa"
+                href={projectData[index].deployed}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faLink} />
+              </a>
+              <p>{projectData[index].title} Deployment</p>
+            </div>
+            <div>
+              <a
+                href={projectData[index].repo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="fa"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              <p>{projectData[index].title} Repository</p>
+            </div>
+          </div>
+
+          <ul>
+            {projectData[index].keyFeatures.map((feature) => {
+              return (
+                <li>
+                  <p>{feature}</p>
+                </li>
+              );
+            })}
+          </ul>
           <button onClick={closeModal}>Close</button>
         </div>
       </Modal>
