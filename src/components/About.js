@@ -4,17 +4,40 @@ import menu from '../images/menu.png';
 import pumpkinPie from '../images/pumpkinPie.jpg';
 import colorZentangle from '../images/colorZentangle.JPG';
 
-const About = props => {
+const About = (props) => {
   return (
     <div className="home-box">
       <div className="left-content">
         <div className="text-box">
           <h1>About Me</h1>
           <p>
-            I grew up in Michigan and now live in Utah. I have a BS in
-            microbiology from Brigham Young University and am currently a
-            full-stack web development student at Lambda School.
+            I grew up in Michigan and now live in Utah. I am currently a
+            full-stack web development student at{' '}
+            <a
+              href="https://lambdaschool.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Lambda School
+            </a>
+            . I also have a BS in microbiology from{' '}
+            <a
+              href="https://www.byu.edu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Brigham Young University
+            </a>
+            .
           </p>
+          <a
+            className="resume-link"
+            href="https://resume.creddle.io/resume/aj6reap4xj0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            See My Resume
+          </a>
           <p>
             I love to create things. When I'm not creating web applications, you
             can find me making something with fabric, music, paint, or pen -- or
