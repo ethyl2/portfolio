@@ -45,7 +45,7 @@ const projectData = [
     repo: 'https://github.com/Buid-Week-Refugee-Stories/front-end',
     deployed: 'https://refugees-stories-kbh.netlify.com/',
     description:
-      'This app allows people to share stories and experiences of refugees to increase awareness, understanding, and support. I helped to create the front end of the application, using React.',
+      'This app allows people to share stories and experiences of refugees to increase awareness, understanding, and support.',
     imageSrc: RefugeeStories,
     techStack:
       'React | React Router | GSAP | Redux | Node.js | Express | SQLite',
@@ -62,7 +62,7 @@ const projectData = [
     deployed:
       'https://documenter.getpostman.com/view/10064604/SWTEbbdc?version=latest',
     description:
-      'This app is designed to help users share and collect business cards. I helped create the backend of the application, using Node.js, Express, Postgresql, and Heroku.',
+      'This app enables users to easily share and collect business cards. I helped create the backend of the application, using Node.js, Express, Postgresql, and Heroku.',
     imageSrc: BusinessCardOrganizer,
     techStack: 'React | React Router | Redux | Node.js | Express | Postgres',
     keyFeatures: [
@@ -107,7 +107,7 @@ const projectData = [
     repo: 'https://github.com/ethyl2/reducer-todo',
     deployed: 'http://katniss-todo.surge.sh/',
     description:
-      'This project is do-to application, with a fun/humorous touch. It features content from the point of view of the main character from the Hunger Games book series.',
+      'This project is a to-do application, with a fun/humorous touch. It features content from the point of view of the main character from the Hunger Games book series.',
     imageSrc: KatnissToDo,
     techStack: 'React | CSS',
     keyFeatures: [

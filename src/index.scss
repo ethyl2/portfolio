@@ -174,6 +174,7 @@ ul {
   border: 1px solid black;
   font-style: italic;
   border-radius: 3px;
+  margin: 1rem;
 }
 
 #page-container {
@@ -208,6 +209,14 @@ header nav {
 
 header nav a {
   margin-left: 1rem;
+  font-size: 1.5rem;
+  &:hover {
+    font-style: italic;
+    color: white;
+  }
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 }
 
 .active {
@@ -222,6 +231,23 @@ footer {
   min-height: 10vh;
   margin-bottom: none;
   margin-top: 5rem;
+  p {
+    font-size: 1.3rem;
+  }
+  @media (max-width: 1000px) {
+    p {
+      font-size: 1.25rem;
+    }
+  }
+  @media (max-width: 500px) {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 1rem;
+    p {
+      font-size: 1rem;
+    }
+  }
 }
 footer div {
   text-align: right;
@@ -311,6 +337,12 @@ button {
   outline: none;
   transition: all 0.2s ease-in-out;
   font-size: 1.25rem;
+  border-radius: 3px;
+  @media (max-width: 400px) {
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.75rem;
+  }
 }
 
 button:hover {
@@ -465,25 +497,53 @@ img {
   }
 }
 
+.modal {
+  position: relative;
+  top: -20%;
+  right: 10%;
+  transform: translate(25vw, 25vh);
+  width: 70%;
+  background: white;
+  border-radius: 3px;
+  padding: 1rem;
+  @media (max-width: 1050px) {
+    width: 85%;
+    right: 17.5%;
+  }
+  @media (max-width: 400px) {
+    width: 95%;
+    right: 22.5%;
+    padding: 0.25rem;
+  }
+}
+
 .modal-box {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
+
   h2 {
     margin: 1rem;
     font-size: 2.5rem;
     font-weight: bold;
     letter-spacing: 0.2rem;
-    @media (max-width: 1000px) {
+    @media (max-width: 1050px) {
       font-size: 2rem;
+      margin: 0.8rem;
     }
   }
   h3 {
     font-size: 1.75rem;
     font-weight: bold;
+    @media (max-width: 1050px) {
+      font-size: 1.6rem;
+    }
     @media (max-width: 1000px) {
       font-size: 1.5rem;
+    }
+    @media (max-width: 400px) {
+      font-size: 1rem;
     }
   }
   p {
@@ -492,6 +552,10 @@ img {
     font-size: 1rem;
     @media (max-width: 1000px) {
       font-size: 0.75rem;
+    }
+    @media (max-width: 500px) {
+      font-size: 0.75rem;
+      line-height: 1rem;
     }
   }
   a {
@@ -505,6 +569,9 @@ img {
   }
   a.fa {
     font-size: 4rem;
+    @media (max-width: 1050px) {
+      font-size: 2.25rem;
+    }
   }
   .links-box {
     display: flex;
@@ -516,18 +583,27 @@ img {
       width: 80%;
     }
     @media (max-width: 500px) {
-      flex-flow: column nowrap;
+      flex-flow: row nowrap;
       margin-left: -1rem;
+    }
+    @media (max-width: 400px) {
+      justify-content: center;
     }
     p {
       font-weight: bold;
       @media (max-width: 500px) {
         line-height: 1rem;
       }
+      @media (max-width: 400px) {
+        display: none;
+      }
     }
     div {
       width: 50%;
       transition: all 0.2s ease-in-out;
+      @media (max-width: 400px) {
+        width: 25%;
+      }
       &:hover {
         transform: scale(1.2);
       }

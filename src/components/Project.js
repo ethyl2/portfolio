@@ -48,7 +48,8 @@ const Project = ({ index }) => {
         isOpen={modalisOpen}
         onAfterOpen={afterOpenModal}
         onRequestClose={closeModal}
-        style={customStyles}
+        className="modal"
+        //style={customStyles}
         contentLabel={projectData[index].title}
       >
         <div className="modal-box">
