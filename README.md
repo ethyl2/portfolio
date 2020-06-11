@@ -2,7 +2,8 @@
 
 A showcase of my applications and projects.
 
-Currently deployed at http://heathernuffer.surge.sh/
+Currently deployed at http://www.heathernuffer.com/,
+http://heathernuffer.surge.sh/
 and https://heathernuffer.netlify.app/
 
 ## [![Netlify Status](https://api.netlify.com/api/v1/badges/90f84702-3eab-45da-bf20-b074e661a49a/deploy-status)](https://app.netlify.com/sites/heathernuffer/deploys)
