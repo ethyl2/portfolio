@@ -19,9 +19,9 @@ const projectData = [
     techStack:
       'React | React Router | Redux | SASS | Node.js | Express | Postgres | AWS',
     keyFeatures: [
-      'Functioned as a web developer on a remote, cross-functional team of 5 web developers, 5 data scientists, and 1 UX designer',
-      'Initiated the idea for the app and currently act as a stakeholder for this project',
-      'Built functionality for user onboarding and event creation/modification/deletion',
+      'Functioned as a web developer on a remote, cross-functional team of 5 web developers, 5 data scientists, and 1 UX designer.',
+      'Initiated the idea for the app and currently act as a stakeholder for this project.',
+      'Built functionality for user onboarding and event creation/modification/deletion.',
     ],
   },
 
@@ -34,9 +34,9 @@ const projectData = [
     imageSrc: RestaurantPassport,
     techStack: 'React | React Router | Redux | Node.js | Express | Postgres',
     keyFeatures: [
-      'Functioned as a React developer on a remote team of 5 web developers',
-      'Designed and collaborated to create the pages for onboarding and restaurant collections',
-      'Built functionality to get restaurant recommendations by querying the back end’s Yelp API integration',
+      'Functioned as a React developer on a remote team of 5 web developers.',
+      'Designed and collaborated to create the pages for onboarding and restaurant collections.',
+      'Built functionality to get restaurant recommendations by querying the back end’s Yelp API integration.',
     ],
   },
 
@@ -50,9 +50,9 @@ const projectData = [
     techStack:
       'React | React Router | GSAP | Redux | Node.js | Express | SQLite',
     keyFeatures: [
-      'Functioned as a React developer on a remote team of 4 web developers',
-      'Designed and collaborated to create the pages for onboarding and administrator story approval/rejection',
-      'Built functionality to add/modify/delete stories and experiences',
+      'Functioned as a React developer on a remote team of 4 web developers.',
+      'Designed and collaborated to create the pages for onboarding and administrator story approval/rejection.',
+      'Built functionality to add/modify/delete stories and experiences.',
     ],
   },
 
@@ -66,9 +66,9 @@ const projectData = [
     imageSrc: BusinessCardOrganizer,
     techStack: 'React | React Router | Redux | Node.js | Express | Postgres',
     keyFeatures: [
-      'Functioned as a Node.js developer on a remote team of 6 web developers',
-      'Collaborated to create the back end for user onboarding and database storage of business cards',
-      'Helped the front end team to implement QR Code generation and cloud image storage',
+      'Functioned as a Node.js developer on a remote team of 6 web developers.',
+      'Collaborated to create the back end for user onboarding and database storage of business cards.',
+      'Helped the front end team to implement QR Code generation and cloud image storage.',
     ],
   },
 
@@ -81,9 +81,9 @@ const projectData = [
     imageSrc: DJDJEntertainment,
     techStack: 'React | React Router | SASS',
     keyFeatures: [
-      'Created the layout and design',
-      'Edited and updated the text from the old website for use in this site',
-      'Built the new site using React and React Router',
+      'Created the layout and design.',
+      'Edited and updated the text from the old website for use in this site.',
+      'Built the new site using React and React Router.',
     ],
   },
 
@@ -96,9 +96,9 @@ const projectData = [
     imageSrc: ReactGitHubUserCardApp,
     techStack: 'React | CSS',
     keyFeatures: [
-      "Utilized axios to request data about from GitHub's API data for specific users",
-      'Created the layout and design',
-      'Utilized the github-calendar library to display GitHub contributions graph for a user',
+      "Utilized axios to request data about from GitHub's API data for specific users.",
+      'Created the layout and design.',
+      'Utilized the github-calendar library to display GitHub contributions graph for a user.',
     ],
   },
 
@@ -111,9 +111,9 @@ const projectData = [
     imageSrc: KatnissToDo,
     techStack: 'React | CSS',
     keyFeatures: [
-      'Created the layout and design',
-      'Implemented the reducer pattern for state management, using the useReducer() hook',
-      'Utilized CSS transforms to add animation',
+      'Created the layout and design.',
+      'Implemented the reducer pattern for state management, using the useReducer() hook.',
+      'Utilized CSS transforms to add animation.',
     ],
   },
 
@@ -126,9 +126,9 @@ const projectData = [
     imageSrc: Pomodoro,
     techStack: 'React | CSS',
     keyFeatures: [
-      'Wrote text to briefly explain the Pomodoro technique',
-      'Created the layout and design',
-      'Coded the project using React class components',
+      'Wrote text to briefly explain the Pomodoro technique.',
+      'Created the layout and design.',
+      'Coded the project using React class components.',
     ],
   },
 ];

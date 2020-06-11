@@ -37,7 +37,7 @@ const Project = ({ index }) => {
 
   return (
     <div className="project-box">
-      <div className="screenshot-container">
+      <div className="screenshot-container" onClick={openModal}>
         <img
           src={projectData[index].imageSrc}
           alt={`screenshot for ${projectData[index].title}`}
