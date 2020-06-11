@@ -30,7 +30,7 @@ const projectData = [
     repo: 'https://github.com/Restaurant-passport-2/FE',
     deployed: 'https://restaurant-passport-2.netlify.com/',
     description:
-      "This app allows users to keep track of all the restaurants that they like/want to visit. It also gives recommendations and picks a place for the users to go to if they can't decide. Built with a team at Lambda School, using React, React-Router, and the Yelp API.",
+      "This app allows users to keep track of all the restaurants that they like/want to visit. It also gives recommendations and picks a place for the users to go to if they can't decide.",
     imageSrc: RestaurantPassport,
     techStack: 'React | React Router | Redux | Node.js | Express | Postgres',
     keyFeatures: [
@@ -62,7 +62,7 @@ const projectData = [
     deployed:
       'https://documenter.getpostman.com/view/10064604/SWTEbbdc?version=latest',
     description:
-      'This app enables users to easily share and collect business cards. I helped create the backend of the application, using Node.js, Express, Postgresql, and Heroku.',
+      'This app enables users to easily share and collect business cards.',
     imageSrc: BusinessCardOrganizer,
     techStack: 'React | React Router | Redux | Node.js | Express | Postgres',
     keyFeatures: [
@@ -107,7 +107,7 @@ const projectData = [
     repo: 'https://github.com/ethyl2/reducer-todo',
     deployed: 'http://katniss-todo.surge.sh/',
     description:
-      'This project is a to-do application, with a fun/humorous touch. It features content from the point of view of the main character from the Hunger Games book series.',
+      'This project is a to-do list application, with a fun/humorous touch. It features content from the point of view of the main character from the Hunger Games book series.',
     imageSrc: KatnissToDo,
     techStack: 'React | CSS',
     keyFeatures: [
@@ -126,7 +126,7 @@ const projectData = [
     imageSrc: Pomodoro,
     techStack: 'React | CSS',
     keyFeatures: [
-      'Wrote text to briefly explain the Pomodoro technique.',
+      'Wrote text to succinctly explain the Pomodoro technique.',
       'Created the layout and design.',
       'Coded the project using React class components.',
     ],
