@@ -9,7 +9,7 @@ const Projects = (props) => {
       <h1>Projects</h1>
       <div className="projects-box">
         {projectData.map((project, index) => {
-          return <Project index={index} key={index} />;
+          return <Project index={index} key={`${index}-${project.imageSrc}`} />;
         })}
       </div>
     </div>

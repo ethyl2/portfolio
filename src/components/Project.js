@@ -6,18 +6,6 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
-const customStyles = {
-  content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
-    width: '55%',
-  },
-};
-
 Modal.setAppElement(document.getElementById('root'));
 
 const Project = ({ index }) => {
@@ -49,7 +37,6 @@ const Project = ({ index }) => {
         onAfterOpen={afterOpenModal}
         onRequestClose={closeModal}
         className="modal"
-        //style={customStyles}
         contentLabel={projectData[index].title}
       >
         <div className="modal-box">
@@ -85,7 +72,7 @@ const Project = ({ index }) => {
           <ul>
             {projectData[index].keyFeatures.map((feature) => {
               return (
-                <li>
+                <li key={`${projectData.imageSrc}-feature-${index}`}>
                   <p>{feature}</p>
                 </li>
               );
