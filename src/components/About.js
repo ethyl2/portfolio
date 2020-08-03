@@ -12,8 +12,8 @@ const About = (props) => {
         <h1>About Me</h1>
         <p>
           I grew up in Michigan and now live in Utah. I love coding and
-          specialize in React applications. I am currently a full-stack web
-          development student at{' '}
+          specialize in React applications. I graduated from a full-stack web
+          development program at{' '}
           <a
             className="school-link"
             href="https://lambdaschool.com/"
