@@ -1,28 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import projectData from '../projectData';
 
 import Project from './Project';
 
 const Projects = (props) => {
+  const [endIndex, setEndIndex] = useState(6);
+
+  const handleClick = () => {
+    let nextEndIndex = endIndex + 2;
+    if (nextEndIndex > projectData.length) {
+      nextEndIndex = projectData.length;
+    }
+    setEndIndex(nextEndIndex);
+  };
+
   return (
     <div className="projects-page">
       <h1>Projects</h1>
       <div className="projects-box">
-        {projectData.map((project, index) => {
+        {projectData.slice(0, endIndex).map((project, index) => {
           return <Project index={index} key={`${index}-${project.imageSrc}`} />;
         })}
       </div>
+      {endIndex < projectData.length && (
+        <button onClick={handleClick}>Show More</button>
+      )}
     </div>
   );
 };
 
 export default Projects;
-
-/*
-<div>
-                <h3>{projectData[0].title}</h3>
-                <p>{projectData[0].description}</p>
-                <a href={projectData[0].deployed} >{projectData[0].title}</a>
-                <a href={projectData[0].repo}>Repository on GitHub</a>
-            </div>
-*/
