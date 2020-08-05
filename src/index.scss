@@ -161,7 +161,8 @@ h2 {
 
 a {
   text-decoration: none;
-  color: #75720b;
+  font-weight: bold;
+  color: #cfc913;
 }
 
 p {
@@ -221,6 +222,7 @@ header nav a {
 
 .active {
   font-weight: bold;
+  color: #f7f5af;
 }
 
 footer {
@@ -656,6 +658,8 @@ form {
 label {
   margin: 2rem 1rem;
   padding: 1rem;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 input,
@@ -679,4 +683,6 @@ input[placeholder],
 textarea[placeholder] {
   text-align: left;
   padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1em;
 }

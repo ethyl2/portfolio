@@ -70,9 +70,11 @@ const Project = ({ index }) => {
           </div>
 
           <ul>
-            {projectData[index].keyFeatures.map((feature) => {
+            {projectData[index].keyFeatures.map((feature, featureIndex) => {
               return (
-                <li key={`${projectData.imageSrc}-feature-${index}`}>
+                <li
+                  key={`${projectData[index].imageSrc}-feature-${featureIndex}`}
+                >
                   <p>{feature}</p>
                 </li>
               );
