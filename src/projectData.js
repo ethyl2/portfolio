@@ -1,12 +1,13 @@
 import ReactGitHubUserCardApp from './images/ReactGitHubUserCardApp.png';
 import RestaurantPassport from './images/RestaurantPassport.png';
-// import FeltFood from './images/FeltFood.png';
 import BusinessCardOrganizer from './images/BusinessCardOrganizer.png';
 import RefugeeStories from './images/RefugeeStories.png';
 import Pomodoro from './images/Pomodoro.png';
 import DJDJEntertainment from './images/DJDJEntertainment.png';
 import KatnissToDo from './images/KatnissToDo.png';
 import DJHelper from './images/djhelperhome.png';
+import GOFLiteBrite from './images/GOFLiteBrite.png';
+import JillyJonka from './images/JillyJonka.png';
 
 const projectData = [
   {
@@ -131,17 +132,36 @@ const projectData = [
       'Coded the project using React class components.',
     ],
   },
+
+  {
+    title: "Conway's Game of Life: LiteBrite Style",
+    repo: 'https://github.com/ethyl2/gameOfLifeLiteBrite',
+    deployed: 'https://litebrite-game-of-life.netlify.app/',
+    description:
+      "Implementation of Conway's Game of Life, with colors that change according to cells' age",
+    imageSrc: GOFLiteBrite,
+    techStack: 'React | CSS',
+    keyFeatures: [
+      "Created the design, inspired by one of my childhood's favorite toys, LiteBrite.",
+      'Wrote and implemented an algorithm that calculates the number of alive neighbors for each cell to determine the next generation.',
+    ],
+  },
+
+  {
+    title: "Jilly Jonka's Candy Factory",
+    repo: 'https://github.com/dantebui/CSBW-1-Frontend',
+    deployed: 'https://jillyjonkascandyfactory.netlify.app/',
+    description:
+      'MUD (Multi-User Dungeon) Game where users explore a candy factory and create new candy sensations',
+    imageSrc: JillyJonka,
+    techStack: 'React | CSS | Python | Django',
+    keyFeatures: [
+      'Functioned as a React and Python developer on a remote team of 4 developers.',
+      'Created the concept details and design.',
+      'Coded the functionality to collect ingredients and create candy.',
+      'Collaborated to connect the Django back end to the React front end.',
+    ],
+  },
 ];
 
 export default projectData;
-
-/*
-{
-    title: 'Felt Food Marketing Page',
-    repo: 'https://github.com/ethyl2/felt-food',
-    deployed: 'https://felt-foods.surge.sh/',
-    description:
-      'An example of a functional marketing page built with vanilla HTML, CSS and JavaScript.',
-    imageSrc: FeltFood,
-  },
-  */
