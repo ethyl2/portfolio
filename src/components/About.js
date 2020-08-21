@@ -4,6 +4,7 @@ import sunflowerPaintings from '../images/sunflowerPaintings.jpg';
 import menu from '../images/menu.png';
 import pumpkinPie from '../images/pumpkinPie.jpg';
 import colorZentangle from '../images/colorZentangle.JPG';
+import LambdaBadge from '../images/LambdaBadge.png';
 
 const About = (props) => {
   return (
@@ -12,7 +13,7 @@ const About = (props) => {
         <h1>About Me</h1>
         <p>
           I grew up in Michigan and now live in Utah. I love coding and
-          specialize in React applications. I graduated from a full-stack web
+          specialize in React applications. I graduated from the full-stack web
           development program at{' '}
           <a
             className="school-link"
@@ -42,7 +43,22 @@ const About = (props) => {
           See My Resume
         </a>
       </div>
+
       <Skills />
+
+      <div className="images-container badge">
+        <a
+          href="https://www.youracclaim.com/badges/25a7471a-afad-44fb-8da8-5d9f3ea93f39/public_url"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={LambdaBadge}
+            alt="Lambda School Full Stack Web Development Badge"
+          />
+        </a>
+      </div>
+
       <div className="text-box">
         <p>
           Creating things is my passion. When I'm not coding web applications,
