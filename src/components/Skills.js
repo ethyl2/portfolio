@@ -14,6 +14,7 @@ import {
   faPython,
   faSlack,
   faTrello,
+  faVuejs,
 } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -29,6 +30,7 @@ const skills = [
   { icon: faBootstrap, name: 'Bootstrap' },
   { icon: faJsSquare, name: 'JavaScript' },
   { icon: faReact, name: 'React' },
+  { icon: faVuejs, name: 'Vue.js'},
   { icon: faNodeJs, name: 'Node.js' },
   { icon: faDatabase, name: 'SQL' },
   { icon: faPython, name: 'Python' },
