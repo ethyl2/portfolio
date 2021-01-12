@@ -5,6 +5,7 @@ import menu from '../images/menu.png';
 import pumpkinPie from '../images/pumpkinPie.jpg';
 import colorZentangle from '../images/colorZentangle.JPG';
 import LambdaBadge from '../images/LambdaBadge.png';
+import BCLogo from '../images/bc_logo.jpg';
 
 const About = (props) => {
   return (
@@ -13,7 +14,14 @@ const About = (props) => {
         <h1>About Me</h1>
         <p>
           I grew up in Michigan and now live in Utah. I love coding and
-          specialize in React applications. I graduated from the full-stack web
+          am a web developer at{' '}  
+          <a className="school-link" 
+            href="https://bestcompany.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >Best Company
+          </a>
+          . I graduated from the full-stack web
           development program at{' '}
           <a
             className="school-link"
@@ -33,6 +41,7 @@ const About = (props) => {
             Brigham Young University
           </a>
           .
+          
         </p>
         <a
           className="resume-link"
@@ -41,6 +50,19 @@ const About = (props) => {
           rel="noopener noreferrer"
         >
           See My Resume
+        </a>
+      </div>
+
+      <div className="images-container badge">
+        <a
+          href="https://bestcompany.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={BCLogo}
+            alt="Best Company Logo"
+          />
         </a>
       </div>
 
