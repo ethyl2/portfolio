@@ -8,6 +8,8 @@ import {
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
 const Footer = props => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer>
       <div>
@@ -34,7 +36,7 @@ const Footer = props => {
         </a>
       </div>
       <div>
-        <p>© 2020 Heather Nuffer</p>
+        <p>© {currentYear} Heather Nuffer</p>
       </div>
     </footer>
   );
