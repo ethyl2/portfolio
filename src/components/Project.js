@@ -45,17 +45,19 @@ const Project = ({ index }) => {
           <h3>Tech Stack:</h3>
           <p>{projectData[index].techStack}</p>
           <div className="links-box">
-            <div>
-              <a
-                className="fa"
-                href={projectData[index].deployed}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faLink} />
-              </a>
-              <p>{projectData[index].title} Deployment</p>
-            </div>
+            { (projectData[index].deployed) ?
+              <div>
+                <a
+                  className="fa"
+                  href={projectData[index].deployed}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={faLink} />
+                </a>
+                <p>{projectData[index].title} Deployment</p>
+              </div> : ''
+            }
             <div>
               <a
                 href={projectData[index].repo}

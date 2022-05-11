@@ -13,7 +13,7 @@ const projectData = [
   {
     title: 'DJ Helper',
     repo: 'https://github.com/Lambda-School-Labs/djhelper-fe',
-    deployed: 'https://www.dj-helper.com/',
+   
     description:
       'This app enables DJs to effectively connect with their audiences by creating event pages and getting song requests.',
     imageSrc: DJHelper,
