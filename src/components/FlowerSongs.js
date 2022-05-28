@@ -4,7 +4,7 @@ import IrisesPhoto from '../images/irises.jpg';
 const FlowerSongs = (props) => {
 
   return (
-    <div className="flower-songs" style={{ minHeight: '100%'}}>
+    <div className="flower-songs" style={{ minHeight: '100%', backgroundColor: 'rgba(189,149,74, 0.75)', paddingTop: '16px', paddingBottom: '64px'}}>
         <h1 style={{color: 'white', fontWeight: 'bold', backgroundColor: 'black', width: '50%', margin: '2rem auto', padding: '1rem 0.5rem', borderRadius: '0.5rem'}}>Flower Songs</h1>
         <iframe title="flower songs playlist"  
             style={{borderRadius:'12px', width: '80%', marginBottom: '4rem'}} 
