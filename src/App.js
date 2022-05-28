@@ -7,7 +7,9 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import About from './components/About';
+
 import WeatherSongs from './components/WeatherSongs';
+import FlowerSongs from './components/FlowerSongs';
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
-        <Route path="/weather" component={WeatherSongs} />
+        <Route path="/weather-songs" component={WeatherSongs} />
+        <Route path="/flower-songs" component={FlowerSongs} />
         <Route path="/about" component={About} />
         <Route component={Home} />
         
