@@ -10,6 +10,7 @@ import About from './components/About';
 
 import WeatherSongs from './components/WeatherSongs';
 import FlowerSongs from './components/FlowerSongs';
+import ColorSongs from './components/ColorSongs';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/weather-songs" component={WeatherSongs} />
         <Route path="/flower-songs" component={FlowerSongs} />
+        <Route path="/color-songs" component={ColorSongs} />
         <Route path="/about" component={About} />
         <Route component={Home} />
         
