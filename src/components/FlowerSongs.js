@@ -17,8 +17,7 @@ const FlowerSongs = (props) => {
             alt="irises"
             style={{ borderRadius: '50%' }}
         />
-      </div>
-      
+        </div>
     </div>
   );
 };
