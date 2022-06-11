@@ -1,10 +1,12 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faGithub,
   faTwitter,
   faLinkedin
 } from '@fortawesome/free-brands-svg-icons';
+import { faMusic } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
 const Footer = props => {
@@ -35,8 +37,11 @@ const Footer = props => {
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
       </div>
-      <div>
+      <div  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <p>© {currentYear} Heather Nuffer</p>
+        <NavLink activeClassName="active" to="/playlists" style={{ fontSize: '0.95rem'}}>
+          <FontAwesomeIcon icon={faMusic} />
+        </NavLink>
       </div>
     </footer>
   );
