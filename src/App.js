@@ -11,6 +11,8 @@ import About from './components/About';
 import WeatherSongs from './components/WeatherSongs';
 import FlowerSongs from './components/FlowerSongs';
 import ColorSongs from './components/ColorSongs';
+import BirdSongs from './components/BirdSongs';
+import PlaylistIndex from './components/PlaylistIndex';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/weather-songs" component={WeatherSongs} />
         <Route path="/flower-songs" component={FlowerSongs} />
         <Route path="/color-songs" component={ColorSongs} />
+        <Route path="/bird-songs" component={BirdSongs} />
+        <Route path="/playlists" component={PlaylistIndex} />
         <Route path="/about" component={About} />
         <Route component={Home} />
         
