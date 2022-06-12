@@ -8,7 +8,9 @@ and https://heathernuffer.netlify.app/
 
 ## [![Netlify Status](https://api.netlify.com/api/v1/badges/90f84702-3eab-45da-bf20-b074e661a49a/deploy-status)](https://app.netlify.com/sites/heathernuffer/deploys)
 
-All images are my own, except for the tree background image, which can be found in Jeremy Bishop's collection at unsplash.com: https://unsplash.com/@jeremybishop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+Images are either my own or from [unspash.com](https://unsplash.com/).
+
+The tree background image can be found in Jeremy Bishop's collection at unsplash.com: https://unsplash.com/@jeremybishop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText.
 
 ---
 
