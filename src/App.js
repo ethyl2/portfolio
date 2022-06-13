@@ -13,6 +13,7 @@ import FlowerSongs from './components/FlowerSongs';
 import ColorSongs from './components/ColorSongs';
 import BirdSongs from './components/BirdSongs';
 import Musicals from './components/Musicals';
+import HomeSongs from './components/HomeSongs';
 import PlaylistIndex from './components/PlaylistIndex';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/color-songs" component={ColorSongs} />
         <Route path="/bird-songs" component={BirdSongs} />
         <Route path="/musicals" component={Musicals} />
+        <Route path="/home-songs" component={HomeSongs} />
         <Route path="/playlists" component={PlaylistIndex} />
         <Route path="/about" component={About} />
         <Route component={Home} />
