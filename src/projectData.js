@@ -8,6 +8,7 @@ import KatnissToDo from './images/KatnissToDo.png';
 import DJHelper from './images/djhelperhome.png';
 import GOFLiteBrite from './images/GOFLiteBrite.png';
 import JillyJonka from './images/JillyJonka.png';
+import RiddlesInTheDark from './images/riddles-in-the-dark.png';
 
 const projectData = [
   {
@@ -37,7 +38,36 @@ const projectData = [
     keyFeatures: [
       'Functioned as a React developer on a remote team of 5 web developers.',
       'Designed and collaborated to create the pages for onboarding and restaurant collections.',
-      'Built functionality to get restaurant recommendations by querying the back end’s Yelp API integration.',
+      'Built functionality to get restaurant recommendations by querying the back end\'s Yelp API integration.',
+    ],
+  },
+
+  {
+    title: "Conway's Game of Life: Lite Brite Style",
+    repo: 'https://github.com/ethyl2/gameOfLifeLiteBrite',
+    deployed: 'https://litebrite-game-of-life.netlify.app/',
+    description:
+      "Implementation of Conway's Game of Life, with colors that change according to cells' age",
+    imageSrc: GOFLiteBrite,
+    techStack: 'React | CSS',
+    keyFeatures: [
+      "Created the design, inspired by one of my childhood's favorite toys, LiteBrite.",
+      'Wrote and implemented an algorithm that calculates the number of alive neighbors for each cell to determine the next generation.',
+    ],
+  },
+
+  {
+    title: "riddles in the dark",
+    repo: 'https://github.com/ethyl2/riddles',
+    deployed: 'https://ethyl2.github.io/riddles/',
+    description:
+      'An web app that challenges your skills at finding & solving riddles, with a fun spooky theme.',
+    imageSrc: RiddlesInTheDark,
+    techStack: 'HTML | Canvas API | CSS | TailwindCss | Javascript',
+    keyFeatures: [
+      'Created the concept details and design.',
+      'Coded the functionality to find riddles, answer them, and get feedback.',
+      'Collaborated with other programmers from around the world to create and improve this project as part of Hacktoberfest 2021.',
     ],
   },
 
@@ -89,17 +119,33 @@ const projectData = [
   },
 
   {
-    title: 'GitHubUser',
-    repo: 'https://github.com/ethyl2/React-Github-User-Card',
-    deployed: 'https://github-user.now.sh/',
+    title: 'Pomodoro Timer',
+    repo: 'https://github.com/ethyl2/pomodoro-clock',
+    deployed: 'https://pomodoro-tomato.netlify.com/',
     description:
-      "This project is built with React and uses axios to access data from GitHub's API to populate a page with info about a GitHub user. The GitHub calendar for the user is also displayed. Entering a username reloads the page with information for that user.",
-    imageSrc: ReactGitHubUserCardApp,
+      'Timer app that helps users be more productive by splitting work time into sessions with breaks in-between. Built with React.',
+    imageSrc: Pomodoro,
     techStack: 'React | CSS',
     keyFeatures: [
-      "Utilized axios to request data about from GitHub's API data for specific users.",
+      'Wrote text to succinctly explain the Pomodoro technique.',
       'Created the layout and design.',
-      'Utilized the github-calendar library to display GitHub contributions graph for a user.',
+      'Coded the project using React class components.',
+    ],
+  },
+
+  {
+    title: "Jilly Jonka's Candy Factory",
+    repo: 'https://github.com/dantebui/CSBW-1-Frontend',
+    deployed: 'https://jillyjonkascandyfactory.netlify.app/',
+    description:
+      'MUD (Multi-User Dungeon) Game where users explore a candy factory and create new candy sensations',
+    imageSrc: JillyJonka,
+    techStack: 'React | CSS | Python | Django',
+    keyFeatures: [
+      'Functioned as a React and Python developer on a remote team of 4 developers.',
+      'Created the concept details and design.',
+      'Coded the functionality to collect ingredients and create candy.',
+      'Collaborated to connect the Django back end to the React front end.',
     ],
   },
 
@@ -119,49 +165,20 @@ const projectData = [
   },
 
   {
-    title: 'Pomodoro Timer',
-    repo: 'https://github.com/ethyl2/pomodoro-clock',
-    deployed: 'https://pomodoro-tomato.netlify.com/',
+    title: 'GitHubUser',
+    repo: 'https://github.com/ethyl2/React-Github-User-Card',
+    deployed: 'https://github-user.now.sh/',
     description:
-      'Timer app that helps users be more productive by splitting work time into sessions with breaks in-between. Built with React.',
-    imageSrc: Pomodoro,
+      "This project is built with React and uses axios to access data from GitHub's API to populate a page with info about a GitHub user. The GitHub calendar for the user is also displayed. Entering a username reloads the page with information for that user.",
+    imageSrc: ReactGitHubUserCardApp,
     techStack: 'React | CSS',
     keyFeatures: [
-      'Wrote text to succinctly explain the Pomodoro technique.',
+      "Utilized axios to request data about from GitHub's API data for specific users.",
       'Created the layout and design.',
-      'Coded the project using React class components.',
+      'Utilized the github-calendar library to display GitHub contributions graph for a user.',
     ],
   },
 
-  {
-    title: "Conway's Game of Life: LiteBrite Style",
-    repo: 'https://github.com/ethyl2/gameOfLifeLiteBrite',
-    deployed: 'https://litebrite-game-of-life.netlify.app/',
-    description:
-      "Implementation of Conway's Game of Life, with colors that change according to cells' age",
-    imageSrc: GOFLiteBrite,
-    techStack: 'React | CSS',
-    keyFeatures: [
-      "Created the design, inspired by one of my childhood's favorite toys, LiteBrite.",
-      'Wrote and implemented an algorithm that calculates the number of alive neighbors for each cell to determine the next generation.',
-    ],
-  },
-
-  {
-    title: "Jilly Jonka's Candy Factory",
-    repo: 'https://github.com/dantebui/CSBW-1-Frontend',
-    deployed: 'https://jillyjonkascandyfactory.netlify.app/',
-    description:
-      'MUD (Multi-User Dungeon) Game where users explore a candy factory and create new candy sensations',
-    imageSrc: JillyJonka,
-    techStack: 'React | CSS | Python | Django',
-    keyFeatures: [
-      'Functioned as a React and Python developer on a remote team of 4 developers.',
-      'Created the concept details and design.',
-      'Coded the functionality to collect ingredients and create candy.',
-      'Collaborated to connect the Django back end to the React front end.',
-    ],
-  },
 ];
 
 export default projectData;
