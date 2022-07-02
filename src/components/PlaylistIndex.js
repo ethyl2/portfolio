@@ -31,6 +31,9 @@ const PlaylistIndex = (props) => {
                 <NavLink activeClassName="active" to="/home-songs" style={{ margin: '0.5rem auto', color: '#B6D8E2'}}>
                     Home
                 </NavLink>
+                <NavLink activeClassName="active" to="/bug-songs" style={{ margin: '0.5rem auto', color: '#40e0d0'}}>
+                    Bugs
+                </NavLink>
             </div>
         </div>
       <div style={{color: 'white', fontWeight: 'bold', backgroundColor: 'black', width: '65%', margin: '3rem auto', padding: '1rem', borderRadius: '0.5rem'}}>
