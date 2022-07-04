@@ -1,6 +1,28 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import CassettesPhoto from '../images/cassette-tapes.jpg';
+
+const playlistLinks = {
+    "Weather" : ['/weather-songs', '#DB81D5'],
+    "Colors" : ['/color-songs', '#E4D46F'],
+    "Flowers" : ['/flower-songs', '#DE974D'],
+    "Birds" : ['/bird-songs', '#9A532C'],
+    "Food" : ['/food-songs', '#B3BE61'],
+    "Musicals" : ['/musicals', '#AC4D55'],
+    "Home" : ['/home-songs', '#B6D8E2'],
+    "Bugs" : ['/bug-songs', '#40e0d0'],
+    "Ice Cream" : ['ice-cream-songs', '#F2DBE3'],
+    
+}
+
+const formattedLinks = []
+
+Object.entries(playlistLinks).forEach((link) => {
+    formattedLinks.push(<NavLink key={link[0]} activeClassName="active" to={link[1][0]} style={{ margin: '0.5rem auto',  color: link[1][1] }}>
+        { link[0]}
+    </NavLink>)
+})
+
 const PlaylistIndex = (props) => {
 
   return (
@@ -9,31 +31,9 @@ const PlaylistIndex = (props) => {
             <h1 style={{color: 'white', fontWeight: 'bold', backgroundColor: 'black', width: '95%', margin: '1rem auto', padding: '1rem 0.5rem'}}>My Spotify Playlists</h1>
             <p>I love finding music from a wide variety of genres that share subjects in common.</p>
             <p style={{ fontStyle: 'italic', fontSize: '1.25rem'}} >Here are some of my favorite lists:</p>
-            <div style={{ display: 'flex', flexFlow: 'column nowrap', justifyContent: 'space-around', alignItems: 'center', fontSize: '2rem', margin: '2rem auto 0.5rem auto' }} >
-                <NavLink activeClassName="active" to="/weather-songs" style={{ margin: '0.5rem auto',  color: '#DB81D5'}}>
-                Weather
-                </NavLink>
-                <NavLink activeClassName="active" to="/color-songs" style={{ margin: '0.5rem auto', color: '#E4D46F' }}>
-                    Colors
-                </NavLink>
-                <NavLink activeClassName="active" to="/flower-songs" style={{ margin: '0.5rem auto', color: '#DE974D' }}>
-                    Flowers
-                </NavLink>
-                <NavLink activeClassName="active" to="/bird-songs" style={{ margin: '0.5rem auto', color: '#9A532C'}}>
-                    Birds
-                </NavLink>
-                <NavLink activeClassName="active" to="/food-songs" style={{ margin: '0.5rem auto', color: '#B3BE61' }}>
-                    Food
-                </NavLink>
-                <NavLink activeClassName="active" to="/musicals" style={{ margin: '0.5rem auto', color: '#AC4D55'}}>
-                    Musicals
-                </NavLink>
-                <NavLink activeClassName="active" to="/home-songs" style={{ margin: '0.5rem auto', color: '#B6D8E2'}}>
-                    Home
-                </NavLink>
-                <NavLink activeClassName="active" to="/bug-songs" style={{ margin: '0.5rem auto', color: '#40e0d0'}}>
-                    Bugs
-                </NavLink>
+            
+            <div style={{ display: 'flex', flexFlow: 'column nowrap', justifyContent: 'space-around', alignItems: 'center', fontSize: '2rem', margin: '2rem auto 0.5rem auto' }}>
+                { formattedLinks }
             </div>
         </div>
       <div style={{color: 'white', fontWeight: 'bold', backgroundColor: 'black', width: '65%', margin: '3rem auto', padding: '1rem', borderRadius: '0.5rem'}}>
