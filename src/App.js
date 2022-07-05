@@ -18,7 +18,7 @@ import FoodSongs from './components/FoodSongs';
 import BugSongs from './components/BugSongs';
 import IceCreamSongs from './components/IceCreamSongs';
 import PlaylistIndex from './components/PlaylistIndex';
-
+import PageNotFound from './components/PageNotFound';
 function App() {
   return (
     <div className="App" id="page-container">
@@ -40,7 +40,7 @@ function App() {
         <Route path="/ice-cream-songs" component={IceCreamSongs} />
         <Route path="/playlists" component={PlaylistIndex} />
         <Route path="/about" component={About} />
-        <Route component={Home} />
+        <Route component={PageNotFound} />
         
       </Switch>
       <Footer />
