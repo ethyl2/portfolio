@@ -9,6 +9,7 @@ import DJHelper from './images/djhelperhome.png';
 import GOFLiteBrite from './images/GOFLiteBrite.png';
 import JillyJonka from './images/JillyJonka.png';
 import RiddlesInTheDark from './images/riddles-in-the-dark.png';
+import FavoriteRecipes from './images/favorite-recipes.png';
 
 const projectData = [
   {
@@ -68,6 +69,21 @@ const projectData = [
       'Created the concept details and design.',
       'Coded the functionality to find riddles, answer them, and get feedback.',
       'Collaborated with other programmers from around the world to create and improve this project as part of Hacktoberfest 2021.',
+    ],
+  },
+
+  {
+    title: "Favorite Recipes",
+    repo: 'https://github.com/ethyl2/recipes',
+    deployed: 'https://recipes-heathernuffer.vercel.app/',
+    description:
+      'I was continually frustrated with a lot of recipe pages on the Internet. That motivated me to make a recipe website that is easy to use, with no annoying features found in other websites, such as ads and lengthy, unnecessary text before getting to the actual recipe.',
+    imageSrc: FavoriteRecipes,
+    techStack: 'HTML  | TailwindCss | Vue.js | NuxtJS',
+    keyFeatures: [
+      'Created the concept details and design, and edited the recipes.',
+      'Coded the functionality to dynamically create recipe pages as more recipes are added to the recipe file.',
+      'Added a form page for users to submit their favorite recipes to include in the site.',
     ],
   },
 
