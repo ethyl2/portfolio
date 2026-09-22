@@ -16,12 +16,11 @@ const About = (props) => {
           I grew up in Michigan and now live in Utah. I love coding and
           am a web developer at{' '}  
           <a className="school-link" 
-            href="https://bestcompany.com/" 
+            href="https://snoball.com/" 
             target="_blank" 
             rel="noopener noreferrer"
-          >Best Company
-          </a>
-          . I graduated from the full-stack web
+          >Snoball, </a>
+           previously named BestCompany.com. I graduated from the full-stack web
           development program at{' '}
           <a
             className="school-link"
@@ -43,14 +42,14 @@ const About = (props) => {
           .
           
         </p>
-        <a
+        {/* <a
           className="resume-link"
           href="https://resume.creddle.io/resume/aj6reap4xj0"
           target="_blank"
           rel="noopener noreferrer"
         >
           See My Resume
-        </a>
+        </a> */}
       </div>
 
       <div className="images-container badge">
