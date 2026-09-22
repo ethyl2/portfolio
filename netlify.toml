@@ -1,4 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  # react-scripts 3.x needs --openssl-legacy-provider (see package.json scripts),
+  # which only exists on Node 17+. Netlify's default image still pins Node 10.
+  NODE_VERSION = "18"
+
 [[redirects]]
-	from = "/*"
-	to = "/index.html"
-	status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
